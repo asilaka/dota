@@ -3,7 +3,7 @@ import "./Card.css";
 const Card = ({title, text, num}) => {
   return (
     <>
-      <div className="card card-1"  style={{backgroundImage:`url(/card-${num}.jpg)`}}>
+      <div className={`card card-${num}`}  style={{backgroundImage:`url(/card-${num}.jpg)`}}>
         <h2>{title}</h2>
         <h3>{text}</h3>
 

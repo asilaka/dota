@@ -4,6 +4,9 @@ background: #DA4343;
     border-radius: 25px;
     color: white;
     width: max-content;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 
     h2{
         font-size: 140px;
@@ -52,3 +55,13 @@ background: #DA4343;
     background-size: cover;
     background-position: center;
 }
+
+
+.card-2{
+
+}
+
+.card-3{
+
+}
+
